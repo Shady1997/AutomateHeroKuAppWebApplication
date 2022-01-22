@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<!-- to run test sequentially change thread count from 2 to 1 -->
+<!-- to run test sequentially change thread count from 2 to 1 and enable firefox  -->
 <suite name="Suite" parallel="tests" thread-count="2">
 	<test name="TestChrome">
 		<parameter name="browser" value="Chrome" />
@@ -12,10 +12,6 @@
 			</class>
 		</classes>
 	</test>
-	<test name="TestFirefox">
-		<parameter name="browser" value="Firefox" />
-		<classes>
-			<class name="main.Start" />
-		</classes>
-	</test>
+	<!-- <test name="TestFirefox"> <parameter name="browser" value="Firefox" 
+		/> <classes> <class name="main.Start" /> </classes> </test> -->
 </suite>

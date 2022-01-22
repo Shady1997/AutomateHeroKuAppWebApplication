@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="1" total="30" passed="24" failed="5" skipped="0">
+<testng-results ignored="1" total="15" passed="14" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-01-20T14:31:57 EET" name="Suite" finished-at="2022-01-20T14:33:40 EET" duration-ms="102784">
+  <suite started-at="2022-01-20T14:59:31 EET" name="Suite" finished-at="2022-01-20T15:00:40 EET" duration-ms="69029">
     <groups>
     </groups>
-    <test started-at="2022-01-20T14:31:57 EET" name="TestChrome" finished-at="2022-01-20T14:33:00 EET" duration-ms="63660">
+    <test started-at="2022-01-20T14:59:31 EET" name="TestChrome" finished-at="2022-01-20T15:00:40 EET" duration-ms="69029">
       <class name="main.Start">
-        <test-method is-config="true" signature="prepareClassProperties(java.lang.String)[pri:0, instance:main.Start@306f16f3]" started-at="2022-01-20T14:31:57 EET" name="prepareClassProperties" finished-at="2022-01-20T14:32:00 EET" duration-ms="3015" status="PASS">
+        <test-method is-config="true" signature="prepareClassProperties(java.lang.String)[pri:0, instance:main.Start@306f16f3]" started-at="2022-01-20T14:59:31 EET" name="prepareClassProperties" finished-at="2022-01-20T14:59:36 EET" duration-ms="5675" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,462 +18,67 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- prepareClassProperties -->
-        <test-method signature="startApplication()[pri:1, instance:main.Start@306f16f3]" started-at="2022-01-20T14:32:00 EET" name="startApplication" finished-at="2022-01-20T14:32:13 EET" duration-ms="13167" status="PASS">
+        <test-method signature="startApplication()[pri:1, instance:main.Start@306f16f3]" started-at="2022-01-20T14:59:36 EET" name="startApplication" finished-at="2022-01-20T14:59:48 EET" duration-ms="11219" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startApplication -->
-        <test-method signature="chooseAutoCompleteLink()[pri:2, instance:main.Start@306f16f3]" started-at="2022-01-20T14:32:13 EET" name="chooseAutoCompleteLink" finished-at="2022-01-20T14:32:16 EET" duration-ms="3117" status="PASS">
+        <test-method signature="chooseAutoCompleteLink()[pri:2, instance:main.Start@306f16f3]" started-at="2022-01-20T14:59:48 EET" name="chooseAutoCompleteLink" finished-at="2022-01-20T14:59:51 EET" duration-ms="3145" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- chooseAutoCompleteLink -->
-        <test-method signature="fillAutoCompleteData()[pri:3, instance:main.Start@306f16f3]" started-at="2022-01-20T14:32:16 EET" name="fillAutoCompleteData" finished-at="2022-01-20T14:32:20 EET" duration-ms="3689" status="PASS">
+        <test-method signature="fillAutoCompleteData()[pri:3, instance:main.Start@306f16f3]" started-at="2022-01-20T14:59:51 EET" name="fillAutoCompleteData" finished-at="2022-01-20T14:59:55 EET" duration-ms="4137" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fillAutoCompleteData -->
-        <test-method signature="chooseButtonsLink()[pri:4, instance:main.Start@306f16f3]" started-at="2022-01-20T14:32:20 EET" name="chooseButtonsLink" finished-at="2022-01-20T14:32:26 EET" duration-ms="5827" status="PASS">
+        <test-method signature="chooseButtonsLink()[pri:4, instance:main.Start@306f16f3]" started-at="2022-01-20T14:59:55 EET" name="chooseButtonsLink" finished-at="2022-01-20T15:00:01 EET" duration-ms="6482" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- chooseButtonsLink -->
-        <test-method signature="chooseCheckBoxs()[pri:5, instance:main.Start@306f16f3]" started-at="2022-01-20T14:32:26 EET" name="chooseCheckBoxs" finished-at="2022-01-20T14:32:31 EET" duration-ms="5299" status="PASS">
+        <test-method signature="chooseCheckBoxs()[pri:5, instance:main.Start@306f16f3]" started-at="2022-01-20T15:00:01 EET" name="chooseCheckBoxs" finished-at="2022-01-20T15:00:07 EET" duration-ms="5539" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- chooseCheckBoxs -->
-        <test-method signature="chooseDatePicker()[pri:6, instance:main.Start@306f16f3]" started-at="2022-01-20T14:32:31 EET" name="chooseDatePicker" finished-at="2022-01-20T14:32:36 EET" duration-ms="5337" status="PASS">
+        <test-method signature="chooseDatePicker()[pri:6, instance:main.Start@306f16f3]" started-at="2022-01-20T15:00:07 EET" name="chooseDatePicker" finished-at="2022-01-20T15:00:12 EET" duration-ms="5574" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- chooseDatePicker -->
-        <test-method signature="chooseEnableAndDisable()[pri:8, instance:main.Start@306f16f3]" started-at="2022-01-20T14:32:36 EET" name="chooseEnableAndDisable" finished-at="2022-01-20T14:32:38 EET" duration-ms="1656" status="PASS">
+        <test-method signature="chooseEnableAndDisable()[pri:8, instance:main.Start@306f16f3]" started-at="2022-01-20T15:00:13 EET" name="chooseEnableAndDisable" finished-at="2022-01-20T15:00:15 EET" duration-ms="2170" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- chooseEnableAndDisable -->
-        <test-method signature="chooseUploadFile()[pri:9, instance:main.Start@306f16f3]" started-at="2022-01-20T14:32:38 EET" name="chooseUploadFile" finished-at="2022-01-20T14:32:39 EET" duration-ms="1106" status="PASS">
+        <test-method signature="chooseUploadFile()[pri:9, instance:main.Start@306f16f3]" started-at="2022-01-20T15:00:15 EET" name="chooseUploadFile" finished-at="2022-01-20T15:00:16 EET" duration-ms="1406" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- chooseUploadFile -->
-        <test-method signature="chooseKeyAndMousPress()[pri:10, instance:main.Start@306f16f3]" started-at="2022-01-20T14:32:39 EET" name="chooseKeyAndMousPress" finished-at="2022-01-20T14:32:41 EET" duration-ms="1698" status="PASS">
+        <test-method signature="chooseKeyAndMousPress()[pri:10, instance:main.Start@306f16f3]" started-at="2022-01-20T15:00:16 EET" name="chooseKeyAndMousPress" finished-at="2022-01-20T15:00:18 EET" duration-ms="2173" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- chooseKeyAndMousPress -->
-        <test-method signature="chooseModal()[pri:11, instance:main.Start@306f16f3]" started-at="2022-01-20T14:32:41 EET" name="chooseModal" finished-at="2022-01-20T14:32:45 EET" duration-ms="4296" status="PASS">
+        <test-method signature="chooseModal()[pri:11, instance:main.Start@306f16f3]" started-at="2022-01-20T15:00:18 EET" name="chooseModal" finished-at="2022-01-20T15:00:23 EET" duration-ms="4478" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- chooseModal -->
-        <test-method signature="choosePageScroll()[pri:12, instance:main.Start@306f16f3]" started-at="2022-01-20T14:32:45 EET" name="choosePageScroll" finished-at="2022-01-20T14:32:47 EET" duration-ms="2227" status="PASS">
+        <test-method signature="choosePageScroll()[pri:12, instance:main.Start@306f16f3]" started-at="2022-01-20T15:00:23 EET" name="choosePageScroll" finished-at="2022-01-20T15:00:25 EET" duration-ms="2305" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- choosePageScroll -->
-        <test-method signature="chooseRadioButtons()[pri:13, instance:main.Start@306f16f3]" started-at="2022-01-20T14:32:47 EET" name="chooseRadioButtons" finished-at="2022-01-20T14:32:48 EET" duration-ms="1229" status="PASS">
+        <test-method signature="chooseRadioButtons()[pri:13, instance:main.Start@306f16f3]" started-at="2022-01-20T15:00:25 EET" name="chooseRadioButtons" finished-at="2022-01-20T15:00:26 EET" duration-ms="1209" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- chooseRadioButtons -->
-        <test-method signature="chooseSwitchWindows()[pri:14, instance:main.Start@306f16f3]" started-at="2022-01-20T14:32:48 EET" name="chooseSwitchWindows" finished-at="2022-01-20T14:32:52 EET" duration-ms="3388" status="PASS">
+        <test-method signature="chooseSwitchWindows()[pri:14, instance:main.Start@306f16f3]" started-at="2022-01-20T15:00:26 EET" name="chooseSwitchWindows" finished-at="2022-01-20T15:00:30 EET" duration-ms="3327" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- chooseSwitchWindows -->
-        <test-method signature="chooseCompleteWebForm()[pri:15, instance:main.Start@306f16f3]" started-at="2022-01-20T14:32:52 EET" name="chooseCompleteWebForm" finished-at="2022-01-20T14:32:59 EET" duration-ms="7355" status="PASS">
+        <test-method signature="chooseCompleteWebForm()[pri:15, instance:main.Start@306f16f3]" started-at="2022-01-20T15:00:30 EET" name="chooseCompleteWebForm" finished-at="2022-01-20T15:00:38 EET" duration-ms="8220" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- chooseCompleteWebForm -->
-        <test-method is-config="true" signature="closeApplication()[pri:0, instance:main.Start@306f16f3]" started-at="2022-01-20T14:32:59 EET" name="closeApplication" finished-at="2022-01-20T14:33:00 EET" duration-ms="1162" status="PASS">
+        <test-method is-config="true" signature="closeApplication()[pri:0, instance:main.Start@306f16f3]" started-at="2022-01-20T15:00:38 EET" name="closeApplication" finished-at="2022-01-20T15:00:40 EET" duration-ms="1856" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeApplication -->
       </class> <!-- main.Start -->
     </test> <!-- TestChrome -->
-    <test started-at="2022-01-20T14:31:57 EET" name="TestFirefox" finished-at="2022-01-20T14:33:40 EET" duration-ms="102784">
-      <class name="main.Start">
-        <test-method is-config="true" signature="prepareClassProperties(java.lang.String)[pri:0, instance:main.Start@5562c41e]" started-at="2022-01-20T14:31:57 EET" name="prepareClassProperties" finished-at="2022-01-20T14:32:04 EET" duration-ms="6886" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- prepareClassProperties -->
-        <test-method signature="startApplication()[pri:1, instance:main.Start@5562c41e]" started-at="2022-01-20T14:32:04 EET" name="startApplication" finished-at="2022-01-20T14:32:17 EET" duration-ms="12885" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startApplication -->
-        <test-method signature="chooseAutoCompleteLink()[pri:2, instance:main.Start@5562c41e]" started-at="2022-01-20T14:32:17 EET" name="chooseAutoCompleteLink" finished-at="2022-01-20T14:32:20 EET" duration-ms="3299" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- chooseAutoCompleteLink -->
-        <test-method signature="fillAutoCompleteData()[pri:3, instance:main.Start@5562c41e]" started-at="2022-01-20T14:32:20 EET" name="fillAutoCompleteData" finished-at="2022-01-20T14:32:23 EET" duration-ms="3597" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- fillAutoCompleteData -->
-        <test-method signature="chooseButtonsLink()[pri:4, instance:main.Start@5562c41e]" started-at="2022-01-20T14:32:23 EET" name="chooseButtonsLink" finished-at="2022-01-20T14:32:32 EET" duration-ms="8370" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- chooseButtonsLink -->
-        <test-method signature="chooseCheckBoxs()[pri:5, instance:main.Start@5562c41e]" started-at="2022-01-20T14:32:32 EET" name="chooseCheckBoxs" finished-at="2022-01-20T14:32:38 EET" duration-ms="6134" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- chooseCheckBoxs -->
-        <test-method signature="chooseDatePicker()[pri:6, instance:main.Start@5562c41e]" started-at="2022-01-20T14:32:38 EET" name="chooseDatePicker" finished-at="2022-01-20T14:32:44 EET" duration-ms="6205" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- chooseDatePicker -->
-        <test-method signature="chooseDragAndDrop()[pri:7, instance:main.Start@5562c41e]" started-at="2022-01-20T14:32:44 EET" name="chooseDragAndDrop" finished-at="2022-01-20T14:32:49 EET" duration-ms="4416" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- chooseDragAndDrop -->
-        <test-method signature="chooseEnableAndDisable()[pri:8, instance:main.Start@5562c41e]" started-at="2022-01-20T14:32:49 EET" name="chooseEnableAndDisable" finished-at="2022-01-20T14:32:50 EET" duration-ms="957" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- chooseEnableAndDisable -->
-        <test-method signature="chooseUploadFile()[pri:9, instance:main.Start@5562c41e]" started-at="2022-01-20T14:32:50 EET" name="chooseUploadFile" finished-at="2022-01-20T14:32:52 EET" duration-ms="2301" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- chooseUploadFile -->
-        <test-method signature="chooseKeyAndMousPress()[pri:10, instance:main.Start@5562c41e]" started-at="2022-01-20T14:32:52 EET" name="chooseKeyAndMousPress" finished-at="2022-01-20T14:32:53 EET" duration-ms="1001" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- chooseKeyAndMousPress -->
-        <test-method signature="chooseModal()[pri:11, instance:main.Start@5562c41e]" started-at="2022-01-20T14:32:53 EET" name="chooseModal" finished-at="2022-01-20T14:32:58 EET" duration-ms="5457" status="FAIL">
-          <exception class="org.openqa.selenium.ElementClickInterceptedException">
-            <message>
-              <![CDATA[Element <a id="logo" class="navbar-brand" href="/"> is not clickable at point (146,43) because another element <div class="modal-backdrop fade"> obscures it
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'EGCA1-0091', ip: '10.200.164.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 95.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211218203254, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 38916, moz:profile: C:\Users\G525585\AppData\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: e1ae018d-67f2-4b05-82d7-7452c82a8b62]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: Element <a id="logo" class="navbar-brand" href="/"> is not clickable at point (146,43) because another element <div class="modal-backdrop fade"> obscures it
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'EGCA1-0091', ip: '10.200.164.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 95.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211218203254, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 38916, moz:profile: C:\Users\G525585\AppData\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: e1ae018d-67f2-4b05-82d7-7452c82a8b62
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
-at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
-at jdk.internal.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-at com.sun.proxy.$Proxy13.click(Unknown Source)
-at main.Start.chooseModal(Start.java:281)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-at java.base/java.lang.Thread.run(Thread.java:834)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- chooseModal -->
-        <test-method signature="choosePageScroll()[pri:12, instance:main.Start@5562c41e]" started-at="2022-01-20T14:32:58 EET" name="choosePageScroll" finished-at="2022-01-20T14:33:08 EET" duration-ms="10019" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[Unable to locate element: //a[@class='btn btn-lg'][normalize-space()='Page Scroll']
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'EGCA1-0091', ip: '10.200.164.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 95.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211218203254, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 38916, moz:profile: C:\Users\G525585\AppData\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: e1ae018d-67f2-4b05-82d7-7452c82a8b62
-*** Element info: {Using=xpath, value=//a[@class='btn btn-lg'][normalize-space()='Page Scroll']}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: //a[@class='btn btn-lg'][normalize-space()='Page Scroll']
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'EGCA1-0091', ip: '10.200.164.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 95.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211218203254, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 38916, moz:profile: C:\Users\G525585\AppData\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: e1ae018d-67f2-4b05-82d7-7452c82a8b62
-*** Element info: {Using=xpath, value=//a[@class='btn btn-lg'][normalize-space()='Page Scroll']}
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at com.sun.proxy.$Proxy13.click(Unknown Source)
-at main.Start.choosePageScroll(Start.java:287)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-at java.base/java.lang.Thread.run(Thread.java:834)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- choosePageScroll -->
-        <test-method signature="chooseRadioButtons()[pri:13, instance:main.Start@5562c41e]" started-at="2022-01-20T14:33:08 EET" name="chooseRadioButtons" finished-at="2022-01-20T14:33:18 EET" duration-ms="10018" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[Unable to locate element: //a[@class='btn btn-lg'][normalize-space()='Radio Button']
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'EGCA1-0091', ip: '10.200.164.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 95.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211218203254, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 38916, moz:profile: C:\Users\G525585\AppData\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: e1ae018d-67f2-4b05-82d7-7452c82a8b62
-*** Element info: {Using=xpath, value=//a[@class='btn btn-lg'][normalize-space()='Radio Button']}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: //a[@class='btn btn-lg'][normalize-space()='Radio Button']
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'EGCA1-0091', ip: '10.200.164.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 95.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211218203254, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 38916, moz:profile: C:\Users\G525585\AppData\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: e1ae018d-67f2-4b05-82d7-7452c82a8b62
-*** Element info: {Using=xpath, value=//a[@class='btn btn-lg'][normalize-space()='Radio Button']}
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at com.sun.proxy.$Proxy13.click(Unknown Source)
-at main.Start.chooseRadioButtons(Start.java:305)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-at java.base/java.lang.Thread.run(Thread.java:834)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- chooseRadioButtons -->
-        <test-method signature="chooseSwitchWindows()[pri:14, instance:main.Start@5562c41e]" started-at="2022-01-20T14:33:18 EET" name="chooseSwitchWindows" finished-at="2022-01-20T14:33:28 EET" duration-ms="10013" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[Unable to locate element: //a[@class='btn btn-lg'][normalize-space()='Switch Window']
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'EGCA1-0091', ip: '10.200.164.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 95.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211218203254, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 38916, moz:profile: C:\Users\G525585\AppData\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: e1ae018d-67f2-4b05-82d7-7452c82a8b62
-*** Element info: {Using=xpath, value=//a[@class='btn btn-lg'][normalize-space()='Switch Window']}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: //a[@class='btn btn-lg'][normalize-space()='Switch Window']
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'EGCA1-0091', ip: '10.200.164.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 95.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211218203254, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 38916, moz:profile: C:\Users\G525585\AppData\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: e1ae018d-67f2-4b05-82d7-7452c82a8b62
-*** Element info: {Using=xpath, value=//a[@class='btn btn-lg'][normalize-space()='Switch Window']}
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at com.sun.proxy.$Proxy13.click(Unknown Source)
-at main.Start.chooseSwitchWindows(Start.java:321)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-at java.base/java.lang.Thread.run(Thread.java:834)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- chooseSwitchWindows -->
-        <test-method signature="chooseCompleteWebForm()[pri:15, instance:main.Start@5562c41e]" started-at="2022-01-20T14:33:28 EET" name="chooseCompleteWebForm" finished-at="2022-01-20T14:33:38 EET" duration-ms="10013" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[Unable to locate element: //a[@class='btn btn-lg'][normalize-space()='Complete Web Form']
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'EGCA1-0091', ip: '10.200.164.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 95.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211218203254, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 38916, moz:profile: C:\Users\G525585\AppData\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: e1ae018d-67f2-4b05-82d7-7452c82a8b62
-*** Element info: {Using=xpath, value=//a[@class='btn btn-lg'][normalize-space()='Complete Web Form']}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: //a[@class='btn btn-lg'][normalize-space()='Complete Web Form']
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'EGCA1-0091', ip: '10.200.164.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 95.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211218203254, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 38916, moz:profile: C:\Users\G525585\AppData\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: e1ae018d-67f2-4b05-82d7-7452c82a8b62
-*** Element info: {Using=xpath, value=//a[@class='btn btn-lg'][normalize-space()='Complete Web Form']}
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at com.sun.proxy.$Proxy13.click(Unknown Source)
-at main.Start.chooseCompleteWebForm(Start.java:348)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-at java.base/java.lang.Thread.run(Thread.java:834)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- chooseCompleteWebForm -->
-        <test-method is-config="true" signature="closeApplication()[pri:0, instance:main.Start@5562c41e]" started-at="2022-01-20T14:33:38 EET" name="closeApplication" finished-at="2022-01-20T14:33:40 EET" duration-ms="1171" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeApplication -->
-      </class> <!-- main.Start -->
-    </test> <!-- TestFirefox -->
   </suite> <!-- Suite -->
 </testng-results>

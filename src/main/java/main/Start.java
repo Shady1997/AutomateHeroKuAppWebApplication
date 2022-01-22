@@ -40,7 +40,7 @@ public class Start extends ClassProperties {
 	@BeforeTest
 	private void prepareClassProperties(String browser) throws IOException {
 		readProperty = new FileInputStream(
-				"C:\\Users\\G525585\\eclipse-workspace\\AutomateHeroKuAppWebApplication\\src\\main\\java\\properties\\generalProperties.properties");
+				System.getProperty("user.dir") + "\\src\\main\\java\\properties\\generalProperties.properties");
 		Properties prop = new Properties();
 		prop.load(readProperty);
 
@@ -346,7 +346,7 @@ public class Start extends ClassProperties {
 	private void chooseCompleteWebForm() throws InterruptedException {
 
 		completeWebForn.chooseCompleteWebForm.click();
-		
+
 		Utility.captureScreenshot(driver, "startApplication");
 
 		Thread.sleep(3000);
@@ -369,13 +369,13 @@ public class Start extends ClassProperties {
 		completeWebForn.clickDatePicker.click();
 
 		completeWebForn.chooseDay.click();
-		
+
 		Utility.captureScreenshot(driver, "filldata");
 
 		completeWebForn.submitForm.click();
 
 		Thread.sleep(3000);
-		
+
 		Utility.captureScreenshot(driver, "confirmationpage");
 
 		Assert.assertEquals(driver.getPageSource().contains("Thanks for submitting your form"), true);
