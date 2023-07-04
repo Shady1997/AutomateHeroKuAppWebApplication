@@ -89,7 +89,7 @@ public class Start extends ClassProperties {
 		Thread.sleep(5000);
 	}
 
-	@Test(priority = 2)
+	@Test(priority = 14)
 	private void chooseAutoCompleteLink() throws InterruptedException {
 
 		autoComplete.chooseAutoComplete.click();
@@ -315,7 +315,7 @@ public class Start extends ClassProperties {
 		autoComplete.returnBack.click();
 	}
 
-	@Test(priority = 14)
+	@Test(priority = 2)
 	private void chooseSwitchWindows() throws InterruptedException {
 
 		switchWindow.chooseSwitchWindows.click();
